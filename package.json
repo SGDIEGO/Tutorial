@@ -4,9 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js"
+    "run": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "DiegoSG",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
